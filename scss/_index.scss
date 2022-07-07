@@ -1,0 +1,58 @@
+
+// header + nav-bar 
+header {
+    background-color: rgba(124, 148, 139, 0.938);
+    position: sticky;
+    top: 0px;
+    @media(min-width:1025px) {
+            size: 100vw;
+
+    nav {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        @media(min-width:320px)and (max-width:768px) {
+                flex-direction: column;
+                justify-content: center;
+        @media(min-width:769px)and (max-width:1024px) {
+                flex-direction: column;
+                justify-content: center;
+        @media(min-width:1025px) {
+                size: 100vw;
+
+        ul {
+            display: flex;
+            list-style: none;
+            width: fit-content;
+            margin-left: auto;
+
+            li {
+                margin-left: auto;
+                padding: 15px;
+
+                a {
+                    text-decoration: none;
+                    color: aliceblue;
+                    font-style: italic;
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                    &:hover{
+                        color: black;
+
+        h1 {
+            text-decoration: none;
+            color: rgba(87, 93, 99, 0.801);
+            font-size: 3rem;
+            padding: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+}
+}
+}
+}
+}
