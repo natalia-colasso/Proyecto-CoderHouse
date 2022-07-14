@@ -1,0 +1,53 @@
+@media(min-width:320px)and (max-width:768px) {
+    .nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .imagenes {
+        width: 60%;
+        margin: auto;
+        justify-content: stretch;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6 1fr);
+        gap: 15px;
+        grid-template-areas:
+            "imag1"
+            "imag2"
+            "imag3"
+            "imag4"
+            "imag5"
+            "imag6";
+    }
+}
+
+
+@media(min-width:769px)and (max-width:1024px) {
+    .nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .imagenes {
+        width: 60%;
+        margin: auto;
+        justify-content: stretch;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3 1fr);
+        gap: 15px;
+        grid-template-areas:
+            "imag1""imag2"
+            "imag3""imag4"
+            "imag5""imag6";
+    }
+}
+
+
+@media(min-width:1025px) {
+    .header {
+        size: 100vw;
+    }
+
+}

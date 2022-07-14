@@ -7,7 +7,6 @@
 
 .wrapper {
     min-height: calc(100vh-10px);
-    background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
@@ -87,35 +86,12 @@ h2 {
 
 
 
-.body {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas:
-        "header"
-        "historia"
-        "imagenes"
-        "footer";
-}
-
-
-
-.imagenes {
-    width: 60%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 15px;
-    grid-template-areas:
-        "imag1 imag2 imag3"
-        "imag4 imag5 imag6";
-}
-
 
 p {
     text-align: justify;
     padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .footer {   
