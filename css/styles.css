@@ -6,8 +6,10 @@
 
 
 .wrapper {
-    min-height: calc(100vh-10px);
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    /* min-height: calc(100vh-10px); */
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    min-height: 100vh;
+    background-color: beige;
 }
 
 
@@ -103,6 +105,7 @@ p {
 
 footer a {
     text-decoration:none;
+    font-size: 1.5rem;
 }
 
 .flex-container {
@@ -117,6 +120,30 @@ footer a {
     justify-content: center;
     margin:20;  
 }
+
+
+/* --------------estilos cards------------ */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 60%;
+    border-radius: 5px;
+    }
+    
+    .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+    img {
+    border-radius: 15px 15px 0 0;
+    }
+    
+    .container {
+    padding: 2px 16px;
+    }
+
+
 
 /* --------------media querys--------------------*/
 
