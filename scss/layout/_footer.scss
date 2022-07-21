@@ -3,9 +3,7 @@
     height: 50px;
     background-color:$background-color;
     bottom: 0;
-    display:flex;
-    justify-content:flex-end;
-    &a{
+    & a{
         text-decoration:none;
     }
 
