@@ -54,12 +54,6 @@ h2 {
   padding: 40px;
   font-style: italic;
   font-weight: 600;
-  text-align: center;
-}
-
-.article-QuienesSomos {
-  padding-right: 20vw;
-  padding-left: 20vw;
 }
 
 .footer {
@@ -196,4 +190,4 @@ h2 {
   }
 }
 
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilos.csssas.map */
