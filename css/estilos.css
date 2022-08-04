@@ -10,6 +10,10 @@
   overflow: hidden;
   width: auto;
 }
+.wrapper .fondoIndex {
+  background-image: url(/imagenes/fondoportada1.jpg);
+  height: inherit;
+}
 
 header {
   background-color: rgba(124, 148, 139, 0.938);
@@ -70,6 +74,7 @@ h2 {
 }
 .footer a {
   text-decoration: none;
+  font-size: large;
 }
 
 .flex-container {
