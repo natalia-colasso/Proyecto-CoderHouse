@@ -1,4 +1,16 @@
 .wrapper {
     min-height: calc(100vh - 50px);
     background-color: beige;
+    overflow: hidden;
+    width: auto;
+    .fondoIndex{
+        background-image: url(/imagenes/fondoportada1.jpg);
+        background-repeat: no-repeat;
+        height: 607px;
+        background-size: cover;
+        background-position: center center;
+    h1{
+        text-align: center;
+    }
+    }
 }

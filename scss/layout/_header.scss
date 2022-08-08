@@ -25,19 +25,20 @@ header {
                     font-style: italic;
                     font-weight: bold;
                     font-size: 1.2rem;
+                    padding: 20px;
 
                     &:hover {
                         color: black;
-
-    h1 {
-        text-decoration: none;
-        color: rgba(87, 93, 99, 0.801);
-        font-size: 3rem;
-        padding: 15px;
-        }
                     }
                 }
             }
         }
     }
+}
+
+
+
+.navbar{
+    background-color: $background-color;
+
 }
