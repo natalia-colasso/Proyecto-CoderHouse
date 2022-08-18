@@ -17,8 +17,11 @@
   background-size: cover;
   background-position: center center;
 }
-.wrapper .fondoIndex h1 {
+
+h1 {
   text-align: center;
+  margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 header {
@@ -59,7 +62,8 @@ header nav ul li a:hover {
 }
 
 h2 {
-  padding: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   font-style: italic;
   font-weight: 600;
   text-align: center;
@@ -146,7 +150,7 @@ h2 {
   font-weight: 600;
 }
 .container .card p {
-  padding: 0 1 rem;
+  padding: 1 rem;
   font-size: 16px;
   font-weight: 300;
 }
