@@ -17,19 +17,19 @@ h2{
 }
 
 
+/*------------------estilos galeria------------------*/
 
+.contenedorGaleria{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 
-.contenedorGaleria {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 150px;
-    padding: 20px;s
-    .imagenGaleria {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-
-
+    .itemGaleria{
+        max-width: 400px;
+        padding: 1rem;
+        & :hover{
+            transform:translateY(-10px);
+            box-shadow: darkgrey;
+        }
     }
-
 }

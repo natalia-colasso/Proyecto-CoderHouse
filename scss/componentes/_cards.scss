@@ -7,6 +7,11 @@
     justify-content: center;
     margin: auto;
 
+    & :hover{
+        transform: translateY(-15px);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
     .card{
         width: 330px;
         height: 550px;
@@ -21,10 +26,6 @@
             width:fit-content
         }
 
-        & :hover{
-            transform: translateY(-15px);
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        }
         img {
             width: 300px;
             height: 220px;
